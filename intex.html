@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shalom Church</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#f5f5f5; }
+    header { 
+      background: url('church.jpg') center center / cover no-repeat; 
+      color:white; 
+      height: 80vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center; 
+      position:relative;
+    }
+    header::before {
+      content:"";
+      position:absolute;
+      top:0; left:0; right:0; bottom:0;
+      background: rgba(0,0,0,0.5);
+    }
+    header h1, header p {
+      position:relative;
+      z-index:1;
+    }
+    nav { background:#34495e; padding:10px; text-align:center; }
+    nav a { color:white; margin:0 15px; text-decoration:none; font-weight:bold; }
+    section { padding:40px 20px; text-align:center; }
+    .about-bg {
+      background: url('background.jpg') center center / cover no-repeat;
+      color: white;
+      position: relative;
+      min-height: 60vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+    }
+    .about-bg::before {
+      content:"";
+      position:absolute;
+      top:0; left:0; right:0; bottom:0;
+      background: rgba(0,0,0,0.5);
+    }
+    .about-bg * {
+      position: relative;
+      z-index:1;
+    }
+    .card { background:white; padding:20px; margin:15px; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1); }
+    .branches { display:flex; flex-wrap:wrap; justify-content:center; }
+    footer { background:#2c3e50; color:white; text-align:center; padding:15px; }
+  
+
+    /* Mobile Fix */
+    @media (max-width: 768px) {
+      header {
+        height: 60vh;
+        background-position: center top;
+      }
+      .about-bg {
+        min-height: 50vh;
+        background-position: center top;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Shalom Church</h5>
+  <p>Welcome to Our Church Family</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#Campus">Campus</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+  <h2>Welcome</h2>
+  <p>Transforming Lives From Darkness To Light.</p>
+</section>
+
+<section id="about" class="about-bg">
+  <h2>About Us</h2>
+  <p>Shalom Center is place for your spiritual and faith development.</p>
+ <p>We believe in the supernatural power of God in doing wonders and miracles in thousands of lives.</p>
+<p>Our Vision is Transforming Lives From Darkness To Light. </p>
+<p>Around 3000 people gather every sunday to worship God and to experience His power of goodness.</p>
+<p> If you're looking for a place to renew your spirit and soul with Joy, Power and Hope, You Belong Here!"</p>
+</section>
+
+<section id="Campus">
+  <h2>Our Campus</h2>
+  <div class="branches">
+
+    <div class="card">
+      <h3>Shalom Center - Elackode</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.6445589795976!2d77.10896496514736!3d8.533845416053296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05b406d9df86af%3A0x6672895903b0274d!2sShalom%20Center!5e0!3m2!1sen!2sin!4v1774742994294!5m2!1sen!2sin" width="100%" height="200" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="card">
+      <h3>Shalom Church Campus - Thirumala </h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.095844184396!2d76.995247374774!3d8.490061691551324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbbd63e5c2e5%3A0x6dabc5c8ce5b584d!2sShalom%20Church%20-%20City%20Campus!5e0!3m2!1sen!2sin!4v1774743042513!5m2!1sen!2sin" width="100%" height="200" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="card">
+      <h3>Shalom Church Campus - Poovar </h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.8361783068995!2d77.06318957477203!3d8.319072691716608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05a90027105a73%3A0xaf92da5578e26487!2sShalom%20church%20poovar%20campus!5e0!3m2!1sen!2sin!4v1774743119130!5m2!1sen!2sin" width="100%" height="200" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="card">
+      <h3>Shalom Prayer Tower - Kattakada </h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.935649632265!2d77.0870173747742!3d8.50562939153629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05b100115d43c7%3A0x5fc650064056c386!2sShalom%20Prayer%20Tower%20-%20Kattakada!5e0!3m2!1sen!2sin!4v1774743195777!5m2!1sen!2sin" width="100%" height="200" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Address:</strong><br>
+  Panniyode,<br>
+  Veeranakavu,<br>
+  Kerala 695575
+</p>
+  <p><strong>Location:</strong> <a href="https://maps.app.goo.gl/wQ18yBMtXPMsR7yb9" target="_blank">View on Google Maps</a></p>
+ 
+  <p>Phone: +91 9400328000</p>
+</section>
+
+<footer>
+  <p>© 2026 Shalom Church. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
